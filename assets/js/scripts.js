@@ -44,15 +44,19 @@
 		const pEm = document.getElementById('p-em');
 		const pPh = document.getElementById('p-ph');
 		
+		const p_cb = document.getElementById('p-ch');
+		
 		const fnInput = document.getElementById('fn');
 		const lnInput = document.getElementById('ln');
 		const emInput = document.getElementById('em');
 		const phInput = document.getElementById('ph');
+		const agree_cb = document.getElementById('agree');
 		function showP3(){
 			pFn.innerHTML = fnInput.value;
 			pLn.innerHTML = lnInput.value;
 			pEm.innerHTML = emInput.value;
 			pPh.innerHTML = phInput.value;
+			p_cb.innerHTML = agree_cb.checked;
 			p2.style.display = 'none';
 			p3.style.display = 'flex';
 		};
